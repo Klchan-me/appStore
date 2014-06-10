@@ -1,0 +1,128 @@
+.navigator,.panel-add{
+	background:url(../images/ico_list_white@2x.png) no-repeat;
+	background-size: 235px 25px;
+}
+.header{
+	background-color: #223f61;
+	width: 100%;
+	height: 42px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.navigator{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 58px;
+	height: 42px;
+	background-position: 14px 14px;
+}
+.panel-add{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 47px;
+	height: 42px;
+	background-position: -25px 14px;
+}
+.title{
+	margin: 0 auto;
+	width: 215px;
+	line-height: 42px;
+	color: #fff;
+	text-align: center;
+}
+.sec-bd{
+	padding-top: 42px;
+}
+.share-box{
+	text-align: left;
+	background: #fff;
+}
+.share-list{
+	height: 51px;
+	position: relative;
+	padding:9px 0  9px 10px;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+.share-list:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #61c8f9;
+	width: 4px;
+	height: 69px;
+	overflow: hidden;
+}
+.share-list:after{
+	content: '';
+	display: block;
+	border-bottom:1px solid #f2f2f2;
+	margin:4px 15px 0 71px;
+}
+.avitor{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 0 11px;
+	position: relative;
+}
+.no-read{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0 -7px 0 0;
+	width: 15px;
+	height: 15px;
+	border-radius: 50% 50%; 
+	background-color: #f47566;
+	border: 2px solid #fff;
+	text-align: center;
+	line-height: 15px;
+	color: #fff;
+	font-size: 12px;
+	text-shadow:0 1px 5px rgb(0,0,0,0.15);
+}
+.info{
+	margin: 0 15px 0 71px;
+	position: relative;
+}
+.vip:before{
+	content: '';
+	display: block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50% 50%;
+	border:2px solid  #6ecb64;
+	float: left;
+	margin: 4px 5px 0 0;
+}
+.vip{
+	margin-left: 15px;
+}
+.tit{
+	padding-right: 89px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #555;
+}
+.txt{
+	padding-right: 89px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #777;
+	height: 36px;
+	overflow: hidden;
+}
+.date{
+	color: #777;
+	position: absolute;
+	right: 15px;
+	top: 8px;
+	width: 74px;
+	text-align: center;
+}
